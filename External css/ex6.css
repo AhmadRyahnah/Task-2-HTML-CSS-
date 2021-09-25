@@ -1,0 +1,40 @@
+
+body{
+    background-color: rgb(243, 219, 243);
+
+}
+div{
+    margin-top: 15px;
+}
+.Box1{
+    background-color: white;
+    border: solid 2px;
+    width: 75%;
+    padding: 2px;
+}
+.Box3{
+    color: red;
+    background-color: white;
+    border: dashed red 3px;
+    width: 75%;
+    padding 10px;
+}
+.Box3 p{
+    border: 2px red dashed;
+    margin: 20px 10px;
+}
+.Box2{
+    background-color: white;
+    border: solid 2px;
+    width: 75%;
+}
+.ipsum{
+    background-color: orange;
+    font-weight: bolder;
+
+}
+.quit{
+    background-color: yellow;
+    font-weight: bolder;
+
+}

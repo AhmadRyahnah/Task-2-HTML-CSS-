@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-div {
-  background-color: green;
-  width: auto;
-  height: auto;
-  border: 15px solid yellow;
-  
-  margin: auto;
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: green; 
 }
-</style>
+.div1 {
+  position: relative;
+  border: 25px solid yellow;
+  width: auto;
+  height:650px;
+  margin:25px;
+}
+.div1:before {
+    
+  content: " ";
+  position: absolute;
+  border: 25px solid yellow;
+  top: 25px;
+  left: 25px;
+  right: 25px;
+  bottom: 25px;
+}
+.div1 p{
+  
+  position: absolute;
+  left: 45%;
+  bottom: 40%;  
+  color: white;
+  font-size: xx-large;
+}
+    </style>
 </head>
 <body>
-
-
-<div style="text-align: center;">Positioning</div>
-<div style="text-align: center;"></div>
-<div style="text-align: center;"></div>
-<div style="text-align: center;"></div>
+    <div class="div1"><p>Positioning</p></div>
 </body>
 </html>
